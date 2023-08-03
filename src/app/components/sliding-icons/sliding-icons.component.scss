@@ -1,0 +1,16 @@
+.main {
+    height: 500px; /* Set height to 100% to stretch it across the whole screen */
+    width: 100%; /* Set width to 100% to stretch it across the whole screen */
+    background-image: url(../../banner2.jpg);
+    background-size: cover; /* Ensure the background image covers the entire div */
+    display: flex;
+    flex-direction: column;
+    margin-top: -22px;
+    align-items: center;
+    color:whitesmoke
+}
+
+.title{
+
+    margin-top: 80px;
+}

@@ -1,0 +1,19 @@
+@use 'src/styles';
+.main {
+    background-color: styles.$color;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px; /* Adjust the spacing between the toolbar and the form-field */
+    
+}
+
+.select-field {
+    margin: 0; /* Remove default margin to keep the form-field close to the text */
+}
